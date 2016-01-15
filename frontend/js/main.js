@@ -27,8 +27,8 @@ require(['jquery', 'underscore', 'backbone', 'text', 'echo'], function ($, _, Ba
 
 	_.templateSettings = { interpolate : /\{\{(.+?)\}\}/g };
 
-	require(['urbania'], function (urbania) {
-		urbania.initialize();
+	require(['project'], function (project) {
+		project.initialize();
 	});
 
 	/*
